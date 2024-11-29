@@ -49,3 +49,15 @@
 <p align="left">Passo 3: Executar o Emulador<br>Após configurar o arquivo config.json, basta executar o aplicativo androidbox.exe:<br><br>Navegue até o diretório onde o arquivo androidbox.exe está localizado.<br>Clique duas vezes no androidbox.exe para iniciar o emulador.<br>O emulador irá carregar com as configurações definidas no arquivo config.json. Ele também irá configurar a rede conforme as definições em rede.json.</p>
 
 ###
+
+<p align="left">Nunca altere manualmente os arquivos essenciais como android.qcow2 ou sdcard.img sem saber o que está fazendo.</p>
+
+###
+
+<p align="left">Sempre baixe o emulador do site oficial ou do nosso GitHub para garantir que está utilizando a versão mais segura e atualizada.</p>
+
+###
+
+<p align="left">Problemas Comuns<br><br>O emulador não está iniciando corretamente<br>Verifique se o arquivo config.json está corretamente configurado e se a pasta sistema/ contém os arquivos necessários, como android.qcow2, sdcard.img e data.img.<br>Certifique-se de que o arquivo rede.json foi criado corretamente. Se não foi, o emulador o criará automaticamente.<br>O desempenho está baixo<br>Tente aumentar a quantidade de memória RAM no arquivo config.json, alterando o valor de ram_size.<br>Se possível, use um PC com mais recursos para garantir o melhor desempenho.<br>Conclusão<br>O AndroidBox App Player oferece uma maneira simples e eficiente de rodar o Android no seu PC. Personalize a experiência ajustando o arquivo config.json e desfrute de um emulador configurado exatamente para as suas necessidades.<br><br>Se você tiver problemas ou sugestões, fique à vontade para abrir um problema no nosso GitHub.</p>
+
+###
