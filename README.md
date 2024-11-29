@@ -45,3 +45,7 @@
 <p align="left">Aqui está o que cada campo faz:<br><br>ram_size: Tamanho da memória RAM em MB (exemplo: 2048 para 2 GB).<br>storage_size: Tamanho do armazenamento virtual para o emulador (em MB).<br>control: Tipo de controle a ser usado ("keyboard" para teclado, "xbox360" para controle Xbox, "ps3" para controle PS3).<br>screen_full: Defina como true para ativar o modo de tela cheia, ou false para usar uma janela redimensionada.<br>screen_size: Tamanho da tela em formato largura x altura (exemplo: "1024x768").<br>user_name: Nome do usuário que será exibido no título da janela do QEMU.</p>
 
 ###
+
+<p align="left">Passo 3: Executar o Emulador<br>Após configurar o arquivo config.json, basta executar o aplicativo androidbox.exe:<br><br>Navegue até o diretório onde o arquivo androidbox.exe está localizado.<br>Clique duas vezes no androidbox.exe para iniciar o emulador.<br>O emulador irá carregar com as configurações definidas no arquivo config.json. Ele também irá configurar a rede conforme as definições em rede.json.</p>
+
+###
