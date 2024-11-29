@@ -41,3 +41,7 @@
 <p align="left">configuração<br>Passo 1: Editar o Arquivo config.json<br>O arquivo config.json contém todas as configurações principais do emulador. Você pode abrir este arquivo com um editor de texto, como o Notepad++ ou o Visual Studio Code, e ajustar os parâmetros conforme necessário.<br><br>Exemplo do conteúdo do config.json:<br><br>json<br>Copiar código<br>{<br>  "ram_size": 2048,<br>  "storage_size": 8192,<br>  "control": "keyboard",<br>  "screen_full": false,<br>  "screen_size": "1024x768",<br>  "user_name": "Seu Nome"<br>}</p>
 
 ###
+
+<p align="left">Aqui está o que cada campo faz:<br><br>ram_size: Tamanho da memória RAM em MB (exemplo: 2048 para 2 GB).<br>storage_size: Tamanho do armazenamento virtual para o emulador (em MB).<br>control: Tipo de controle a ser usado ("keyboard" para teclado, "xbox360" para controle Xbox, "ps3" para controle PS3).<br>screen_full: Defina como true para ativar o modo de tela cheia, ou false para usar uma janela redimensionada.<br>screen_size: Tamanho da tela em formato largura x altura (exemplo: "1024x768").<br>user_name: Nome do usuário que será exibido no título da janela do QEMU.</p>
+
+###
