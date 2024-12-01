@@ -43,3 +43,14 @@ Você só precisa instalar o **AndroidboxAppPlayer Installer** no site oficial o
    }
 
 "control": "xbox360", xbox360,ps3,keyboard
+
+### Explicação do `README.md`:
+1. **Requisitos**: Esclarece que a instalação é feita através de um instalador executável.
+2. **Funções**: Descreve as funcionalidades do emulador e as opções configuráveis.
+3. **Configuração do `config.json`**: Explica como configurar o arquivo JSON para personalizar o emulador.
+4. **Execução**: Instruções claras sobre como rodar o emulador após a instalação e configuração.
+5. **Logs**: Onde os logs serão salvos para facilitar a depuração.
+6. **Problemas comuns**: Possíveis soluções para problemas comuns ao usar o emulador.
+7. **Licença**: Exemplo de seção de licença (ajuste conforme a sua escolha de licença).
+
+Isso garante que a instalação e a execução do seu projeto sejam simples e seguras para os usuários, sem complicações adicionais.
