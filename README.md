@@ -1,50 +1,45 @@
-# AndroidBox App Player
+# AndroidboxAppPlayer
 
-O **AndroidBox App Player** é um emulador de Android para sistemas Windows, projetado para simular um ambiente Android no seu computador. Ele utiliza QEMU para emulação e PyInstaller para empacotar a aplicação.
+O **AndroidboxAppPlayer** é um emulador Android de alta performance que usa o QEMU para simular dispositivos Android. Este repositório oferece uma aplicação empacotada para facilitar a execução do emulador sem a necessidade de configuração manual de dependências ou ambientes de desenvolvimento.
 
-## Funcionalidades do Simulador:
+## Requisitos
 
-- **Emulação de Android**: Execute aplicativos Android em um ambiente virtualizado.
-- **Suporte a Controle**: Conecte controles como **Xbox 360** ou **PS3**.
-- **Câmera Virtual**: Suporte a câmeras USB para captura de vídeo.
-- **Rede ADB**: Configuração automática de porta para comunicação ADB.
-- **Logs e Monitoramento**: Geração de logs para rastrear erros e mensagens do QEMU.
-- **Personalização**: Personalize o ícone do emulador e o nome da janela.
+Você só precisa instalar o **AndroidboxAppPlayer Installer** no site oficial ou GitHub. A aplicação já inclui tudo o que você precisa para rodar o emulador.
 
-## Instalação:
+### Como instalar
 
-### 1. Instale o Installer:
-Baixe o **installer.exe** no [site oficial do AndroidBox App Player](https://github.com/matheussouzadejesus10/androidbox_app_player/releases) e siga os passos para instalar o emulador em seu computador.
+1. **Baixe o instalador do site oficial ou do GitHub**:
+   - [Site Oficial](https://androidboxemulador.blogspot.com/)
+   - [Repositório no GitHub](https://github.com/matheussouzadejesus10/androidbox_app_player)
 
-### 2. Executando o Emulador:
-Após a instalação, execute o **AndroidBox App Player** através do atalho criado no seu desktop. A aplicação irá iniciar automaticamente o emulador Android com as configurações padrão.
+2. **Execute o instalador**:
+   - O instalador irá configurar o emulador e todos os arquivos necessários automaticamente.
 
-## Requisitos:
+### Funções do Simulador
 
-O instalador já inclui todos os componentes necessários, então **não é necessário instalar nenhum software adicional**. O pacote contém:
+- **Emulador Android** utilizando **QEMU**.
+- Suporte para gráficos acelerados com VirtIO.
+- Suporte para dispositivos USB, incluindo controle Xbox 360, PS3 e teclado.
+- Suporte para câmera (caso configurado no arquivo `config.json`).
+- Configurações de rede com porta ADB personalizada.
+- Logs gerados para monitoramento da execução do QEMU.
 
-- **QEMU** (incluso no pacote)
-- **PyInstaller** (para empacotar a aplicação ja pronto)
-- **Python 3.x** (somente necessário se você quiser executar o código-fonte mas foi usado para desevolvimento).
+### Como configurar e executar
 
-## Uso:
-
-1. **Configurações**: O emulador usa um arquivo de configuração chamado `config.json` para armazenar as preferências, como o tamanho da memória RAM e o controle a ser usado (Xbox, PS3, ou teclado).
+1. **Configuração do arquivo `config.json`**:
    
-2. **Emulação de Android**: O emulador irá carregar uma imagem do Android e iniciar a simulação automaticamente. Você pode interagir com o sistema Android através da tela do emulador ou conectar um controle.
+   O arquivo `config.json` contém as configurações do emulador, como quantidade de RAM, número de núcleos de CPU, controle de entrada, resolução da tela, entre outros.
 
-3. **Log de Erros**: O aplicativo mantém um log detalhado das operações do QEMU em `logs/qemu-log.txt`, para diagnosticar problemas caso ocorram.
+   Exemplo do arquivo `config.json`:
 
-## Contribuições
+   ```json
+   {
+     "ram_size": 2048,
+     "cpu_cores": 2,
+     "fullscreen": false,
+     "screen_size": "1280x720",
+     "control": "xbox360",
+     "camera": true,
+     "camera_front": false
+   }
 
-Se você quiser contribuir para o projeto, sinta-se à vontade para enviar um **pull request** no GitHub. 
-
-Certifique-se de testar as alterações antes de submeter.
-
-## Licença
-
-Este projeto está licenciado sob a **MIT License** - consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-**AndroidBox App Player** - Criado para facilitar a emulação de Android no desktop de forma rápida e eficiente.
