@@ -24,8 +24,8 @@ Após a instalação, execute o **AndroidBox App Player** através do atalho cri
 O instalador já inclui todos os componentes necessários, então **não é necessário instalar nenhum software adicional**. O pacote contém:
 
 - **QEMU** (incluso no pacote)
-- **PyInstaller** (para empacotar a aplicação)
-- **Python 3.x** (somente necessário se você quiser executar o código-fonte)
+- **PyInstaller** (para empacotar a aplicação ja pronto)
+- **Python 3.x** (somente necessário se você quiser executar o código-fonte mas foi usado para desevolvimento).
 
 ## Uso:
 
