@@ -13,9 +13,8 @@ Você só precisa instalar o **AndroidboxAppPlayer Installer** no site oficial o
    - [Repositório no GitHub](https://github.com/matheussouzadejesus10/androidbox_app_player)
 
 2. **Execute o instalador**:
-   - O instalador irá configurar o emulador e todos os arquivos necessários automaticamente.
-
-### Funções do Simulador
+   - O instalador irá configurar o emulador e todos os arquivos necessários automaticamente.mas va para a parte "Como configurar e executar"
+ Como configurar e executar 
 
 - **Emulador Android** utilizando **QEMU**.
 - Suporte para gráficos acelerados com VirtIO.
