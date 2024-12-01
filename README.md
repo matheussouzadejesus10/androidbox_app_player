@@ -14,7 +14,7 @@ O **AndroidBox App Player** é um emulador de Android para sistemas Windows, pro
 ## Instalação:
 
 ### 1. Instale o Installer:
-Baixe o **installer.exe** no [site oficial do AndroidBox App Player](https://github.com/matheussouzadejesus10/androidbox-app-player/releases) e siga os passos para instalar o emulador em seu computador.
+Baixe o **installer.exe** no [site oficial do AndroidBox App Player](https://github.com/matheussouzadejesus10/androidbox_app_player/releases) e siga os passos para instalar o emulador em seu computador.
 
 ### 2. Executando o Emulador:
 Após a instalação, execute o **AndroidBox App Player** através do atalho criado no seu desktop. A aplicação irá iniciar automaticamente o emulador Android com as configurações padrão.
