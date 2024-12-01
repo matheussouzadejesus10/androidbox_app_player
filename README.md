@@ -37,8 +37,9 @@ Você só precisa instalar o **AndroidboxAppPlayer Installer** no site oficial o
      "cpu_cores": 2,
      "fullscreen": false,
      "screen_size": "1280x720",
-     "control": "xbox360", //xbox360,ps3,keyboard
+     "control": "xbox360", 
      "camera": true,
      "camera_front": false
    }
 
+"control": "xbox360", xbox360,ps3,keyboard
